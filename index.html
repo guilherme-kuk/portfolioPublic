@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#efefef" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#efefef" />
+    <meta name="msapplication-navbutton-color" content="#efefef" />
+
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- FA -->
+    <script src="https://kit.fontawesome.com/b6a3f88d99.js" crossorigin="anonymous"></script>
+
+    <!-- script -->
+    <script src="./assets/scripts/scripts.js" defer></script>
+    <script src="./assets/scripts/filter.js" defer></script>
+    <script src="./assets/scripts/tns.js" defer></script>
+    <script src="./assets/scripts/modal.js" defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- tns -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+
+    <title>Guilherme Kuk | Front-end Developer</title>
+
+    <!-- Criado por Guilherme Kuk -->
+
+</head>
+
+<body>
+    <header>
+        <div id="circle1">
+            <div id="circle2">
+                <div id="image-circle"></div>
+            </div>
+        </div>
+        <!--  -->
+        <div id="name">
+            <h1>Guilherme Kuk</h1>
+            <p><span class="name-ed">&lt;</span>Front-end Developer<span class="name-ed">&sol;&gt;</span></p>
+            <div id="icons">
+                <a href="https://github.com/guilherme-kuk/" target="_blank">
+                    <span class="text-icon" data-tooltip="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </span>
+                </a>
+                <a href="https://www.linkedin.com/in/guilhermekuk/" target="_blank">
+                    <span class="text-icon" data-tooltip="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </span>
+                </a>
+                <a href="https://www.instagram.com/guikuk/" target="_blank">
+                    <span class="text-icon" data-tooltip="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </span>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5541995807730&text=Ol%C3%A1%2C%20Guilherme%20"
+                    target="_blank">
+                    <span class="text-icon" data-tooltip="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- buttons -->
+        <div id="buttons">
+            <a href="curriculo.pdf" id="cv" target="_blank">Baixar CV <i class="fa-solid fa-download"></i></a>
+            <a href="#" id="contact">Entre em contato</a>
+        </div>
+        <!--  -->
+        <!-- About -->
+        <section>
+            <div class="container-light">
+                <div class="content">
+                    <h2>Sobre mim</h2>
+                    <p class="about-text">Profissional em constante construção. Prezo pelo planejamento, qualidade,
+                        organização e regras claras. Com foco em resultado e com busca constante pelo desenvolvimento
+                        técnico. Atuei como Analista de Suporte Técnico e tive boa experiência neste cargo, o qual me
+                        ampliou o perfil analítico e estratégico. Fui líder voluntário de projetos sociais, onde era
+                        responsável por treinamentos e coordenação de equipes.
+                        <span id="limit">... </span>
+                        <button id="btnMore">Leia mais</button>
+
+                        <span class="more">
+                            <br>
+                            Trabalhei como Instrutor de Informática para Jovem Aprendiz e lá fui um dos responsáveis por
+                            desenvolver o módulo de "Tecnologias Empresariais" o qual trouxe grandes vantagens e
+                            destaque para a empresa. Também criei um “Curso de Excel” para inclusão digital onde mais de
+                            300 alunos já são formados, este curso atualmente é ministrado através da plataforma
+                            Hotmart.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!-- Abilities -->
+        <section>
+            <div class="container">
+                <div class="content">
+                    <h2>Habilidades</h2>
+                    <div class="center">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="fa-brands fa-sass"></i>
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="others">
+                        <p>Conhecimentos em WordPress, Node.js, ReactJS, SQL e Metodologias Ágeis</p>
+                        <p><i>Outras habilidades:</i> Pacote Office, Ferramentas Google, CorelDraw e Canva</p>
+                    </div>
+                </div>
+        </section>
+        <!--  -->
+        <!-- Experience -->
+        <section>
+            <div class="container-light">
+                <div class="content">
+                    <h2>Experiências</h2>
+                    <div class="controller">
+                        <div id="controls">
+                            <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
+                            <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="container-experience">
+                        <!--CARD-->
+                        <div class="my-slider">
+                            <div class="card">
+                                <div class="experience">
+                                    <div class="circleW-img">
+                                        <div class="img-company">
+                                            <img src="./assets/img/positivo-logo.jpg" alt="logo positivo tecnologia">
+                                        </div>
+                                    </div>
+                                    <div class="company">
+                                        <h3>Analista de Suporte Técnico</h3>
+                                        <span>out de 2021 a jan de 2022</span>
+                                    </div>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        Realizava atendimento em assistência remota no setor de garantia estendida
+                                        Zurich. Realizava toda análise, configuração e resolução de problemas dos
+                                        produtos de diferentes marcas e aparelhos por meio de acesso remoto, telefone ou
+                                        WhatsApp.
+                                    </p>
+                                    <p>
+                                        Realizava também registros de procedimentos, documentação de rotina,
+                                        acompanhamento dos recursos técnicos e abertura de chamados.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--CARD-->
+                            <div class="card">
+                                <div class="experience">
+                                    <div class="circleW-img">
+                                        <div class="img-company">
+                                            <img src="./assets/img/positivo-logo.jpg" alt="logo positivo tecnologia">
+                                        </div>
+                                    </div>
+                                    <div class="company">
+                                        <h3>Agente de Suporte</h3>
+                                        <span>mai de 2021 a out de 2021</span>
+                                    </div>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        Realizava suporte e resolução de problemas para produtos da marca. Também
+                                        realizava atendimento ao cliente, registros de procedimentos e abertura de
+                                        chamados.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--CARD-->
+                            <div class="card">
+                                <div class="experience">
+                                    <div class="circleG-img">
+                                        <div class="img-company">
+                                            <img src="./assets/img/aefspr-logo.png" alt="logo aefspr">
+                                        </div>
+                                    </div>
+                                    <div class="company">
+                                        <h3>Instrutor de Informática</h3>
+                                        <span>fev de 2019 a fev de 2021</span>
+                                        <span>jan de 2022 a mai de 2022</span>
+                                    </div>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        Ministrava aulas de Pacote Office, Hardware e Software, Ferramentas Google,
+                                        Canva e Gestão de Mídias Sociais.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- CARD-->
+                            <!-- <div class="card">
+                                    <div class="experience">
+                                        <div class="circleW-img">
+                                            <div class="img-company">
+                                                <img src="./assets/img/tecnico-logo.jpg" alt="logo tecnico">
+                                            </div>
+                                        </div>
+                                        <div class="company">
+                                            <h3>Técnico em Informática</h3>
+                                            <span>Autônomo - 2013 a 2015</span>
+                                        </div>
+                                    </div>
+                                    <div class="description">
+                                        <p>
+                                            Atendimento ao cliente, montagem e manutenção de desktop e notebooks.
+                                        </p>
+                                        <p>
+                                            Assistência geral em informática (impressora, redes e etc.).
+                                        </p>
+                                    </div>
+                                </div> -->
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!-- Filter Portfólio -->
+        <section>
+            <div class="container">
+                <div class="content">
+                    <h2>Portfólio</h2>
+                    <div id="btn-projects">
+                        <button class="main-btn filter-btn active" id="btnAll active">Todos</button>
+                        <button class="main-btn filter-btn" id="btnHtmlCss">HTML5 & CSS3</button>
+                        <button class="main-btn filter-btn" id="btnJs">JavaScript</button>
+                        <button class="main-btn filter-btn" id="btnBootstrap">Bootstrap</button>
+                    </div>
+                    <div class="project-box">
+                        <!--  -->
+                        <a href="https://nvnw4i.csb.app/" target="_blank" class="project-card bootstrap"
+                            title="Visualizar projeto">
+                            <img src="./assets/img/landingPage.png" alt="projeto landingPage" class="img-filter">
+                            <div class="preview">
+                                <i class="fa-solid fa-eye"></i>
+                                <p>Preview</p>
+                            </div>
+                        </a>
+                        <a href="https://6zj1hs.csb.app/" target="_blank" class="project-card html-css"
+                            title="Visualizar projeto">
+                            <img src="./assets/img/loginPage.png" alt="projeto página de login" class="img-filter">
+                            <div class="preview">
+                                <i class="fa-solid fa-eye"></i>
+                                <p>Preview</p>
+                            </div>
+                        </a>
+                        <!--  -->
+                        <a href="https://lix3il.csb.app/" target="_blank" class="project-card html-css"
+                            title="Visualizar projeto">
+                            <img src="./assets/img/jordanShoes.png" alt="projeto jordanshoes" class="img-filter">
+                            <div class="preview">
+                                <i class="fa-solid fa-eye"></i>
+                                <p>Preview</p>
+                            </div>
+                        </a>
+                        <!--  -->
+                        <a href="https://lg3i2p.csb.app/" target="_blank" class="project-card js"
+                            title="Visualizar projeto">
+                            <img src="./assets/img/simpleCalc.png" alt="projeto simplecalc" class="img-filter">
+                            <div class="preview">
+                                <i class="fa-solid fa-eye"></i>
+                                <p>Preview</p>
+                            </div>
+                        </a>
+                        <!--  -->
+                        <a href="https://60yizz.csb.app/" target="_blank" class="project-card js"
+                            title="Visualizar projeto">
+                            <img src="./assets/img/todoList.png" alt="projeto todolist crud" class="img-filter">
+                            <div class="preview">
+                                <i class="fa-solid fa-eye"></i>
+                                <p>Preview</p>
+                            </div>
+                        </a>
+                        <!--  -->
+                        <a href="https://q9g020.csb.app/" target="_blank" class="project-card bootstrap"
+                            title="Visualizar projeto">
+                            <img src="./assets/img/agency.png" alt="projeto agency" class="img-filter">
+                            <div class="preview">
+                                <i class="fa-solid fa-eye"></i>
+                                <p>Preview</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <p>&copy; Guilherme Kuk.
+            <script>document.write(new Date().getFullYear());</script>
+        </p>
+    </footer>
+    <!--  -->
+    <!-- to top -->
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <!--  -->
+    <!-- BG Form -->
+    <div id="modal">
+        <div class="circle-modal">
+            <i class="fa-solid fa-paper-plane"></i>
+        </div>
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg"
+            class="transition duration-300 ease-in-out delay-150">
+            <defs>
+                <linearGradient id="gradient" x1="84%" y1="13%" x2="16%" y2="87%">
+                    <stop offset="5%" stop-color="#ecbd0088"></stop>
+                    <stop offset="95%" stop-color="#fcb90088"></stop>
+                </linearGradient>
+            </defs>
+            <path
+                d="M 0,500 C 0,500 0,166 0,166 C 109.60000000000002,188 219.20000000000005,210 397,199 C 574.8,188 820.8,144 1006,133 C 1191.2,122 1315.6,144 1440,166 C 1440,166 1440,500 1440,500 Z"
+                stroke="none" stroke-width="0" fill="url(#gradient)"
+                class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 250)">
+            </path>
+            <defs>
+                <linearGradient id="gradient" x1="84%" y1="13%" x2="16%" y2="87%">
+                    <stop offset="5%" stop-color="#ecbd00ff"></stop>
+                    <stop offset="95%" stop-color="#fcb900ff"></stop>
+                </linearGradient>
+            </defs>
+            <path
+                d="M 0,500 C 0,500 0,333 0,333 C 119.33333333333331,353.4 238.66666666666663,373.8 416,365 C 593.3333333333334,356.2 828.6666666666667,318.2 1009,308 C 1189.3333333333333,297.8 1314.6666666666665,315.4 1440,333 C 1440,333 1440,500 1440,500 Z"
+                stroke="none" stroke-width="0" fill="url(#gradient)"
+                class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 250)">
+            </path>
+        </svg>
+        <div id="formContact">
+            <h1>Entre em contato comigo!</h1>
+            <form action="https://formsubmit.co/guilhermekuk@gmail.com" method="POST" class="form-contact">
+                <input type="hidden" name="_next" value="https://guilhermekuk-info.netlify.app/">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <div class="campo-form">
+                    <input type="text" name="name" id="namei" autocomplete="off" class="text-input"
+                        placeholder="Digite seu nome..." required>
+                    <label for="namei" class="label">Nome</label>
+                </div>
+                <div class="campo-form">
+                    <input type="email" name="email" id="email" autocomplete="off" class="text-input"
+                        placeholder="Digite seu E-mail..." required>
+                    <label for="email" class="label">E-mail</label>
+                </div>
+                <div class="campo-form">
+                    <textarea name="message" id="message" cols="30" rows="5" class="text-input"
+                        placeholder="Mensagem..." required></textarea>
+                    <label for="message" class="label">Mensagem</label>
+                </div>
+                <input type="submit" value="Enviar mensagem" id="btnSubmit">
+                <div class="success">
+                    <div class="icon-success">
+                        <div>
+                            <i class="fa-solid fa-check icon-submit"></i>
+                        </div>
+                    </div>
+                    <div class="message-success">
+                        <p>Enviado com sucesso!</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button id="btnClose" title="Fechar">X</button>
+    </div>
+
+    <div id="bgModal"></div>
+</body>
+
+</html>
